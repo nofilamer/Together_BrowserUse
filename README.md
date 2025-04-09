@@ -113,6 +113,21 @@ https://github.com/user-attachments/assets/de73ee39-432c-4b97-b4e8-939fd7f323b3
 
 <br/><br/>
 
+## Customization: Together R1
+
+This customization involves using the Together.ai API with the DeepSeek R1 model to automate tasks in the browser. The script `together_R1.py` demonstrates how to check the score of the most recent Golden State Warriors game using the Together.ai API.
+
+### Usage
+
+1. Ensure you have the `TOGETHER_API_KEY` set in your `.env` file.
+2. Run the script using the following command:
+
+```bash
+source venv/bin/activate && python examples/models/together_R1.py
+```
+
+This will activate the virtual environment and execute the script, utilizing the DeepSeek R1 model hosted by Together.ai.
+
 ## More examples
 
 For more examples see the [examples](examples) folder or join the [Discord](https://link.browser-use.com/discord) and show off your project.

@@ -20,3 +20,5 @@ stream = client.chat.completions.create(
 # Print the response from the model
 for chunk in stream:
 	print(chunk.choices[0].delta.content or '', end='', flush=True)
+
+# hello this is a test to check commit\
